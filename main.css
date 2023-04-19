@@ -1,0 +1,107 @@
+
+
+/* nav */
+.nav-item{
+  font-size: 0.8rem;
+  font-weight: 450;
+}
+/* nav */
+
+
+h1, h2 {
+margin-bottom: 50px;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.slide1 {
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+/* section cards */
+.product-card {
+  padding: 16px 0 16px 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.8s;
+  border-radius: 2px;
+}
+.product-card a{
+  text-decoration: none;
+  color: black;
+}
+
+.product-card:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-details {
+  padding: 20px 20px 0 20px;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: #8B8B8B;
+}
+
+.descript{
+  font-size: 0.9rem;
+}
+
+footer .descript {
+  padding: 0 3rem;
+}
+
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  padding: 20px 20px 0 20px;
+}
+
+.card-button{
+  color: white;
+  background: #1E78FF;
+  border: none;
+  padding: 10px 32px;
+  font-size: 300;
+  transition: all 0.6s;
+  border-radius: 2px;
+}
+.card-button:hover {
+  color: white;
+  background: #135CCA;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+/* section cards */
+
+
+/*carousel slide*/
+
+.carousel {
+  padding: 0;
+}
+
+.carousel .carousel-item {
+  max-height: 400px;
+}
+
+.carousel .carousel-item img {
+  object-fit: cover;
+}
+
